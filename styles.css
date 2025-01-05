@@ -1,9 +1,3 @@
-/* :root {
-  --text-color: #1a1c20;
-  --link-color: #4a76ee;
-  --background-color: #eeeff1;
-} */
-
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +15,6 @@ body {
 }
 
 a {
-  color:  #4a76ee;
   text-decoration: none;
 }
 
@@ -32,22 +25,22 @@ nav {
   align-items: center;
   padding: 0 50px;
   height: 80px;
-  background-color: #4a76ee;
+  background-color: #4f3f2e;
 
   .left a{
-    color: #000000;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 600;
   }
 
   .right a {
-    color: #000000;
+    color: #ffffff;
     font-size: 18px;
     margin: 0 10px;
   }
 
   a:hover{
-    color: aqua;
+    color: #000000;
     transform: scale(1.1); 
     transition:  transform 0.3s;
   }
@@ -60,12 +53,13 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #153079;
-  border-bottom: solid #181616;
+  background-color: #FFF0DB;
+  border-bottom: solid #4f3f2e;;
 
   .text h2 {
     font-size: 45px;
     margin-bottom: 20px;
+    color: #333A2F;
   }
 
   .text p {
@@ -79,6 +73,7 @@ nav {
     height:400px; 
     width: 400px;
     margin-left: 50px;
+    box-shadow: 0 20px 20px;
   }
 
   .links a{
@@ -91,7 +86,8 @@ nav {
 
   .links a:hover{
     border: none;
-    background-color: aqua;
+    background-color: #333A2F;
+    color: #ffffff;
     transform: scale(1.1); 
     transition:  transform 0.3s;
   }
@@ -101,8 +97,8 @@ nav {
 #education{
   height: 500px;
   padding: 50px 50px;
-  background-color: #153079;
-  border-bottom: solid #181616;
+  background-color: #FFF0DB;
+  border-bottom: solid #4f3f2e;
 
   h1{
     padding: 10px 0;
@@ -117,7 +113,7 @@ nav {
 
     .para {
       margin: 50px 20px 0;
-      background-color: #4a76ee;
+      background-color: #C8AD7F;
       height: 300px;
       width: 450px;
       border-radius: 20px;
@@ -125,7 +121,8 @@ nav {
     }
 
     .para:hover {
-      background-color: aqua;
+      background-color: #4f3f2e;
+      color: #ffffff;
       transform: scale(1.1); 
       transition:  transform 0.3s;
     }
@@ -150,8 +147,8 @@ nav {
 #skills{
   height: 500px;
   padding: 50px 50px;
-  background-color: #153079;
-  border-bottom: solid #181616;
+  background-color: #FFF0DB;
+  border-bottom: solid #4f3f2e;
 
   h1{
     padding: 10px 0;
@@ -168,7 +165,7 @@ nav {
 
     .items{
       color: #000000;
-      background-color: #4a76ee;
+      background-color: #C8AD7F;
       width: 25%;
       border-radius: 15px;
       padding: 5px 10px;
@@ -183,7 +180,8 @@ nav {
     }
 
     .items:hover {
-      background-color: aqua;
+      background-color: #4f3f2e;
+      color: #ffffff;
       transform: scale(1.1); 
       transition:  transform 0.3s;
     }
@@ -192,9 +190,10 @@ nav {
 
 
 #contact{
-  height: 200px;
+  height: 150px;
   padding: 20px 50px;
-  background-color: #4a76ee;
+  background-color: #4f3f2e;
+  color: #ffffff;
 
   .links{
     display: flex;
@@ -209,14 +208,14 @@ nav {
   }
 
   .links a{
-    color: #000000;
+    color: #ffffff;
     font-size: 22px;
     font-weight: 600;
-    margin: 30px 30px;
+    margin: 10px 30px;
   }
 
   .links a:hover{
-    color: aqua;
+    color: #000000;
     transform: scale(1.1); 
     transition:  transform 0.3s;
   }
